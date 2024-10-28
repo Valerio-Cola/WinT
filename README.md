@@ -69,6 +69,7 @@ gcc -o Wint WinT.c
 - [ ] Ottimizzare l'algoritmo di selezione delle parole.
 - [x] Fornire una copia del README in inglese.
 - [ ] Fornire una copia del codice commentato in inglese.
+- [ ] Unire il codice Inglese e Italiano.
 - [ ] Aggiungere la possibilità di inserire la parola da indovinare.
 - [x] Fornire la possibilità di eseguire il gioco su terminale Windows.
 - [ ] Integrare il [`Selettore Parole.c`](Selettore_Parole.c) nel codice principale in modo che l'utente possa inserire una propria lista di parole e organizzarle in più file automaticamente.
@@ -144,8 +145,9 @@ gcc -o Wint WinT.c
 
 - [ ] Remove the least used words.
 - [ ] Optimize the word selection algorithm.
-- [x] Please provide a copy of the README in English.
-- [ ] Please provide a copy of the commented code in English.
+- [x] Provide a copy of the README in English.
+- [ ] Provide a copy of the commented code in English.
+- [ ] Merge English-Italian code.
 - [ ] Add the ability to enter the word to guess.
 - [x] Provide the ability to run the game on Windows terminal.
 - [ ] Integrate the [`Words_Selector.c`](Words_Selector.c) into the main code so that the user can insert his own list of words and organize them into multiple files automatically.
