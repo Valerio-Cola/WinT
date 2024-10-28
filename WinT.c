@@ -32,8 +32,14 @@ int parola_presente_in_file(const char *nome_file, const char *parola) {
 }
 
 int main() {
-
     
+    printf(" __     __     __     __   __     ______  \n");
+    printf("/\\ \\  _ \\ \\   /\\ \\   /\\ \"-.\\ \\   /\\__  _\\ \n");
+    printf("\\ \\ \\/ \".\\ \\  \\ \\ \\  \\ \\ \\-.  \\  \\/_/\\ \\/ \n");
+    printf(" \\ \\__/\".~\\_\\  \\ \\_\\  \\ \\_\\\\\"\\_\\    \\ \\_\\ \n");
+    printf("  \\/_/   \\/_/   \\/_/   \\/_/ \\/_/     \\/_/ \n");
+
+
     //Lunghezza della parola da indovinare
     int lunghezza;
 
