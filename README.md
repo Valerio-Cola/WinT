@@ -1,22 +1,23 @@
-# WinT
+# WinT 🎮
 # Wordle Nel Tuo Terminale 
 
 Una versione italiana di Wordle nel proprio terminale scritta interamente in C. Se l'autore di Wordle non approva, la repository verrà rimossa. Non è stato preso codice dal progetto originale.
 
-## Indice
+## Indice 📑
 
-- [Parole](#parole)
-- [Funzionamento di WinT.c](#funzionamento-di-wintc)
-- [Come Giocare](#come-giocare)
-- [To-Do List](#to-do-list)
-- [Licenza](#licenza)
+- [Parole](#parole) 📚
+- [Funzionamento di WinT.c](#funzionamento-di-wintc) 🛠️
+- [Come Giocare](#come-giocare) 🎲
+- [To-Do List](#to-do-list) ✅
+- [Licenza](#licenza) 📜
 
 
-## Parole
+## Parole 📚
 
 Le parole sono state prese da [napolux/paroleitaliane](https://github.com/napolux/paroleitaliane) e successivamente organizzate in base alla lunghezza in vari file dall'algoritmo [`Selettore_Parole.c`](Parole/Selettore_Parole.c).
 
-## Funzionamento di WinT.c
+## Funzionamento di WinT.c 🛠️
+**Per una descrizione più dettagliata del codice vedere il file [`WinT.c`](WinT.c)**
 
 L'algoritmo principale opera nel seguente modo:
 
@@ -35,9 +36,9 @@ L'algoritmo principale opera nel seguente modo:
     - Se la parola è stata indovinata, si esce dal loop di gioco.
     - Altrimenti, viene decrementato il numero di tentativi.
 
-## Come Giocare
+## Come Giocare 🎲
 
-### Su linux
+### Su linux 🐧
 1. Scaricare la repository.
 2. Compilare il codice.
 3. Eseguire il programma.
@@ -49,7 +50,7 @@ gcc -o Wint WinT.c
 ./WinT
 ```
 
-### Su Windows
+### Su Windows 🪟
 1. Scaricare la repository sotto forma di file .zip
 2. Estrarre il contenuto
 3. Eseguire il file .bat
@@ -57,7 +58,7 @@ gcc -o Wint WinT.c
    non è stato firmato. Nel file bat inoltre il comando chcp 65001 all'inizio dello script batch .bat    serve per impostare la codifica su UTF-8 e permettere di mostrare le emoji su terminale
 
 
-## To-Do List
+## To-Do List ✅
 
 - [ ] Effettuare scrematura delle parole.
 - [ ] Ottimizzare l'algoritmo di selezione delle parole.
@@ -66,7 +67,7 @@ gcc -o Wint WinT.c
 - [x] Fornire la possibilità di eseguire il gioco su terminale Windows
 
 
-## Licenza
+## Licenza 📜
 
 Questo progetto è distribuito sotto la licenza MIT. Ciò significa che è possibile utilizzare, copiare, modificare, unire, pubblicare, distribuire, concedere in sublicenza e/o vendere copie del software, e permettere alle persone a cui il software è fornito di fare lo stesso.
 
