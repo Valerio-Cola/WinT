@@ -363,7 +363,7 @@ int main() {
             // This helps avoid errors related to repeated letters
             // Ex. Word = "home" 
             // Attempt = "holo" 
-            // Result = "🟩🟩🟥🟥" The second o is not taken into consideration since only 1 is present in "what"
+            // Result = "🟩🟩🟥🟥" The second o is not taken into consideration since only 1 is present in "home"
             int lettere_presente[256] = {0};
             for (int i = 0; i < lunghezza; i++) {
                 lettere_presente[(unsigned char)parola[i]]++;
