@@ -70,7 +70,8 @@ gcc -o Wint WinT.c
 - [x] Fornire una copia del README in inglese.
 - [ ] Fornire una copia del codice commentato in inglese.
 - [ ] Aggiungere la possibilità di inserire la parola da indovinare.
-- [x] Fornire la possibilità di eseguire il gioco su terminale Windows
+- [x] Fornire la possibilità di eseguire il gioco su terminale Windows.
+- [ ] Integrare il [`Selettore Parole.c`](Selettore_Parole.c) nel codice principale in modo che l'utente possa inserire una propria lista di parole e organizzarle in più file automaticamente.
 
 
 ## Licenza 📜
@@ -78,6 +79,7 @@ gcc -o Wint WinT.c
 Questo progetto è distribuito sotto la licenza MIT. Ciò significa che è possibile utilizzare, copiare, modificare, unire, pubblicare, distribuire, concedere in sublicenza e/o vendere copie del software, e permettere alle persone a cui il software è fornito di fare lo stesso.
 
 Il software è fornito "così com'è", senza garanzia di alcun tipo, espressa o implicita, incluse ma non limitate alle garanzie di commerciabilità, idoneità per un particolare scopo e non violazione. In nessun caso gli autori o i detentori del copyright saranno responsabili per qualsiasi reclamo, danno o altra responsabilità, sia in un'azione di contratto, torto o altro, derivante da, fuori o in connessione con il software o l'uso o altre operazioni nel software.
+
 
 
 # English 🇬🇧
@@ -145,7 +147,8 @@ gcc -o Wint WinT.c
 - [x] Please provide a copy of the README in English.
 - [ ] Please provide a copy of the commented code in English.
 - [ ] Add the ability to enter the word to guess.
-- [x] Provide the ability to run the game on Windows terminal
+- [x] Provide the ability to run the game on Windows terminal.
+- [ ] Integrate the [`Words_Selector.c`](Words_Selector.c) into the main code so that the user can insert his own list of words and organize them into multiple files automatically.
 
 
 ## License 📜
