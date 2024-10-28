@@ -1,4 +1,5 @@
-# Wordle Nel Tuo Terminale WinT
+# WinT
+# Wordle Nel Tuo Terminale 
 
 Una versione italiana di Wordle nel proprio terminale scritta interamente in C. Se l'autore di Wordle non approva, la repository verrà rimossa. Non è stato preso codice dal progetto originale.
 
@@ -49,8 +50,11 @@ gcc -o Wint WinT.c
 ```
 
 ### Su Windows
-1. Scaricare la repository.
-2. Eseguire il file .exe
+1. Scaricare la repository sotto forma di file .zip
+2. Estrarre il contenuto
+3. Eseguire il file .bat
+4. Windows indicherà che l'eseguibile può essere una minaccia, ovviamente non lo è, poichè
+   non è stato firmato. Nel file bat inoltre il comando chcp 65001 all'inizio dello script batch .bat    serve per impostare la codifica su UTF-8 e permettere di mostrare le emoji su terminale
 
 
 ## To-Do List
@@ -59,7 +63,7 @@ gcc -o Wint WinT.c
 - [ ] Ottimizzare l'algoritmo di selezione delle parole.
 - [ ] Fornire una copia integrale in inglese.
 - [ ] Aggiungere la possibilità di inserire la parola da indovinare.
-- [ ] Fornire la possibilità di eseguire il gioco su terminale Windows
+- [x] Fornire la possibilità di eseguire il gioco su terminale Windows
 
 
 ## Licenza
