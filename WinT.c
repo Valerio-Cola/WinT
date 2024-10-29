@@ -265,6 +265,8 @@ int main() {
             scanf("%d", &lunghezza);
             if (lunghezza < 4 || lunghezza > 12) {
                 printf("Invalid length. Try again.\n");
+                // Emptying stdin
+                while (getchar() != '\n');
             }
         } while (lunghezza < 4 || lunghezza > 12);
 
