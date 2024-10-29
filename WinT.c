@@ -78,7 +78,8 @@ int main() {
             if (lunghezza < 4 || lunghezza > 12) {
                 printf("Lunghezza non valida. Riprova.\n");
                 // Svuoto il stdin per non entrare in un loop infinito
-                while (getchar() != '\n');            }
+                while (getchar() != '\n');
+            }
         } while (lunghezza < 4 || lunghezza > 12);
 
         // Il file da cui leggere la parolà sarà determinato dalla lunghezza scelta dall'utente
