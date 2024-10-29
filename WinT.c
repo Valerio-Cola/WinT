@@ -33,6 +33,7 @@ int parola_presente_in_file(const char *nome_file, const char *parola) {
 
 int main() {
     
+    // Stampa il logo
     printf(" __     __     __     __   __     ______  \n");
     printf("/\\ \\  _ \\ \\   /\\ \\   /\\ \"-.\\ \\   /\\__  _\\ \n");
     printf("\\ \\ \\/ \".\\ \\  \\ \\ \\  \\ \\ \\-.  \\  \\/_/\\ \\/ \n");
@@ -40,7 +41,7 @@ int main() {
     printf("  \\/_/   \\/_/   \\/_/   \\/_/ \\/_/     \\/_/ \n");
 
 
-    //Lunghezza della parola da indovinare
+    // Lunghezza della parola da indovinare
     int lunghezza;
 
     // Nome del file da cui leggere le parole
