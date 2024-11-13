@@ -53,12 +53,12 @@ L'algoritmo principale opera nel seguente modo:
 3. Eseguire il programma.
 
 #### Compila il programma
-```sh
+```bash
 gcc -o Wint WinT.c
 ```
 
 #### Esegui il programma con il seguente comando
-```sh
+```bash
 ./WinT
 ```
 
