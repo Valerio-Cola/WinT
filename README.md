@@ -57,6 +57,7 @@ gcc -o Wint WinT.c
 
 # Esegui il programma con il seguente comando
 ./WinT
+
 ```
 
 ### Su Windows 🪟
