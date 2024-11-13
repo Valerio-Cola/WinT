@@ -6,7 +6,7 @@
 # Italiano 🇮🇹
 # Wordle Nel Tuo Terminale 
 
-Una versione italiana di Wordle nel proprio terminale scritta interamente in C. Se l'autore di Wordle non approva, la repository verrà rimossa. Non è stato preso codice dal progetto originale.
+Una versione italiana e inglese di Wordle nel proprio terminale scritta interamente in C. Se l'autore di Wordle non approva, la repository verrà rimossa. Non è stato preso codice dal progetto originale.
 
 ## Indice 📑
 
@@ -86,7 +86,7 @@ Il software è fornito "così com'è", senza garanzia di alcun tipo, espressa o 
 # English 🇬🇧
 ## Wordle In Your Terminal
 
-An Italian version of Wordle in your terminal written entirely in C. If the author of Wordle does not approve, the repository will be removed. No code was taken from the original project.
+An Italian and English version of Wordle in your terminal written entirely in C. If the author of Wordle does not approve, the repository will be removed. No code was taken from the original project.
 
 ## Index 📑
 
