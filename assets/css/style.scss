@@ -1,32 +1,37 @@
-
-
 @import "{{ site.theme }}";
 
+:root {
+  --background: #282a36;
+  --current-line: #44475a;
+  --foreground: #f8f8f2;
+  --comment: #6272a4;
+  --cyan: #8be9fd;
+  --green: #50fa7b;
+  --orange: #ffb86c;
+  --pink: #ff79c6;
+  --purple: #bd93f9;
+  --red: #ff5555;
+  --yellow: #f1fa8c;
+}
+
 body {
-  background-color: #282a36;
-  color: #f8f8f2;
+  background-color: var(--background);
+  color: var(--foreground);
 }
 
 a {
-  color: #8be9fd;
-  &:hover {
-    color: #ff79c6;
-  }
+  color: var(--purple);
+}
+
+a:hover {
+  color: var(--pink);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--cyan);
 }
 
 code {
-  background-color: #44475a;
-  color: #50fa7b;
-}
-
-.highlight {
-  background-color: #44475a;
-}
-
-em {
-  color: #ffb86c;
-}
-
-strong {
-  color: #ff79c6;
+  background-color: var(--current-line);
+  color: var(--orange);
 }
