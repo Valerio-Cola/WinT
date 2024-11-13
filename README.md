@@ -51,13 +51,15 @@ L'algoritmo principale opera nel seguente modo:
 1. Scaricare la repository.
 2. Compilare il codice.
 3. Eseguire il programma.
+
+#### Compila il programma
 ```sh
-# Compila il programma
 gcc -o Wint WinT.c
+```
 
-# Esegui il programma con il seguente comando
+#### Esegui il programma con il seguente comando
+```sh
 ./WinT
-
 ```
 
 ### Su Windows 🪟
