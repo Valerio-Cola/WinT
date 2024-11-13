@@ -4,7 +4,7 @@
 - [English](#English-)
 
 # Italiano 🇮🇹
-# Wordle Nel Tuo Terminale 
+## Wordle Nel Tuo Terminale 
 
 Una versione italiana e inglese di Wordle nel proprio terminale scritta interamente in C. Se l'autore di Wordle non approva, la repository verrà rimossa. Non è stato preso codice dal progetto originale.
 
