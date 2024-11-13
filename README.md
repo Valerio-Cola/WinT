@@ -1,7 +1,5 @@
 # WinT 🎮
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Valerio-Cola/WinT)
-
 - [Italiano](#Italiano-)
 - [English](#English-)
 
@@ -9,6 +7,10 @@
 # Wordle Nel Tuo Terminale 
 
 Una versione italiana e inglese di Wordle nel proprio terminale scritta interamente in C. Se l'autore di Wordle non approva, la repository verrà rimossa. Non è stato preso codice dal progetto originale.
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Valerio-Cola/WinT)
+È possibile eseguire il programma online con GitPod. È necessario effettuare il login con github, selezionare come editor Terminal e cliccare su continue. Una volta aperta la shell seseguire i comandi [Come Giocare](#come-giocare-) oppure ```gcc -o Wint WinT.c && ./WinT```
+
 
 ## Indice 📑
 
@@ -89,6 +91,9 @@ Il software è fornito "così com'è", senza garanzia di alcun tipo, espressa o 
 ## Wordle In Your Terminal
 
 An Italian and English version of Wordle in your terminal written entirely in C. If the author of Wordle does not approve, the repository will be removed. No code was taken from the original project.
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Valerio-Cola/WinT)
+You can run the program online with GitPod. You need to log in with GitHub, select Terminal as editor and click continue. Once the shell is open, follow the commands in [How to Play](#how-to-play-) or run ```gcc -o Wint WinT.c && ./WinT```
 
 ## Index 📑
 
