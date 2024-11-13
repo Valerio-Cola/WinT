@@ -1,0 +1,32 @@
+
+
+@import "{{ site.theme }}";
+
+body {
+  background-color: #282a36;
+  color: #f8f8f2;
+}
+
+a {
+  color: #8be9fd;
+  &:hover {
+    color: #ff79c6;
+  }
+}
+
+code {
+  background-color: #44475a;
+  color: #50fa7b;
+}
+
+.highlight {
+  background-color: #44475a;
+}
+
+em {
+  color: #ffb86c;
+}
+
+strong {
+  color: #ff79c6;
+}
